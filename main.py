@@ -4,7 +4,7 @@ import xlsxwriter
 
 product_url = "https://www.teknosa.com/lenovo-ideapad-3-82h8020btxbt6-i5-1135g7-156-8-gb-ram-256-gb-ssd-fhd-freedos-tasinabilir-bilgisayar-p-786284230"
 
-def get_teknosa_product_data(product_url):
+def get_teknosa_product_data(product_url): 
     page = requests.get(product_url)
     soup = bs(page.content, 'html.parser')
     #product brand and name tag
