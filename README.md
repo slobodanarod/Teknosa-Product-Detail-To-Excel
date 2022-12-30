@@ -1,6 +1,6 @@
-# teknosaProduct
+# Data to excel with bs4
 
-get teknosaproduct data with bs4 and write xlsx excel file
+Get Teknosa product data with bs4 and write xlsx excel file
 
 
 
